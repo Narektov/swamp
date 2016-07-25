@@ -21,6 +21,7 @@ public class MyService extends Service {
         super.onDestroy();
         Log.d("srv", "Service Stopped");
 
+
     }
 
     public int onStartCommand(Intent intent, int flags, int startId) {
