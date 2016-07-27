@@ -13,6 +13,7 @@ public class MyService extends Service {
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
+        Log.d("srv", "onBInd");
         return null;
     }
 
@@ -20,7 +21,6 @@ public class MyService extends Service {
     public void onDestroy() {
         super.onDestroy();
         Log.d("srv", "Service Stopped");
-
 
     }
 
@@ -43,7 +43,7 @@ public class MyService extends Service {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                for (Integer i = 0; i < 7; i++) {
+                for (Integer i = 0; i < 300; i++) {
                     Log.d("eee", String.valueOf(i));
 
                     try {
@@ -54,7 +54,6 @@ public class MyService extends Service {
 
 
                 }
-                stopSelf();
             }
         }).start();
 
