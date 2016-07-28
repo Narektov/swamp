@@ -24,6 +24,7 @@ public class MyService extends Service {
 
     }
 
+    @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         Log.d("srv", "onStartCommand");
         someTask();
