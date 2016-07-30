@@ -4,9 +4,7 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -18,8 +16,6 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.GridLayout;
 
 import com.yqritc.recyclerviewflexibledivider.HorizontalDividerItemDecoration;
 
@@ -53,7 +49,7 @@ public class MainActivity extends AppCompatActivity
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(mAdapter);
         if (MainActivity.this.getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
-            recyclerView.setLayoutManager(new GridLayoutManager(this, 2,LinearLayoutManager.VERTICAL,true));
+            recyclerView.setLayoutManager(new GridLayoutManager(this, 2, LinearLayoutManager.VERTICAL, true));
         } else {
             recyclerView.setLayoutManager(new GridLayoutManager(this, 4));
         }
@@ -61,7 +57,6 @@ public class MainActivity extends AppCompatActivity
 
         //Added gradle Dependency
         recyclerView.addItemDecoration(new HorizontalDividerItemDecoration.Builder(this).sizeResId(R.dimen.divideleft).color(Color.TRANSPARENT).sizeResId(R.dimen.divider).build());
-
 
 
         Sights sights = new Sights("Ծախկաձոր", "25 կմ", "Ծաղկաձոր (Կեչառիս, Ծաղկոցաձոր, մինչև 1947 թ.՝ Դարաչիչակ), քաղաք Հայաստանի Կոտայքի մարզում, (Կեչառիս, մինչև 1947-ը՝ Թեղենիսի արևելյան լանջին։ Կլիման մեղմ է, առողջարար։ Քաղաքը գտնվում է ծովի մակերևույթից 1841 մ բարձրության վրա, մարզկենտրոնից 6 կմ հյուսիս-արևմուտք։ Նախկինում գյուղն ամառանոցավայր էր, ապա՝ ավան, 1958 թվականից՝ քաղաքատիպ ավան։", R.drawable.caxkadzor);
@@ -76,7 +71,169 @@ public class MainActivity extends AppCompatActivity
         movieList.add(sights4);
         Sights sights5 = new Sights("Ծախկաձոր", "25 կմ", "Ծաղկաձոր (Կեչառիս, Ծաղկոցաձոր, մինչև 1947 թ.՝ Դարաչիչակ), քաղաք Հայաստանի Կոտայքի մարզում, (Կեչառիս, մինչև 1947-ը՝ Թեղենիսի արևելյան լանջին։ Կլիման մեղմ է, առողջարար։ Քաղաքը գտնվում է ծովի մակերևույթից 1841 մ բարձրության վրա, մարզկենտրոնից 6 կմ հյուսիս-արևմուտք։ Նախկինում գյուղն ամառանոցավայր էր, ապա՝ ավան, 1958 թվականից՝ քաղաքատիպ ավան։", R.drawable.caxkadzor);
         movieList.add(sights5);
-
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
+        movieList.add(sights5);
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -134,7 +291,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
-            Intent intent=new Intent(MainActivity.this,Map.class);
+            Intent intent = new Intent(MainActivity.this, Map.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_share) {
