@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity
 
 
         //Added gradle Dependency
-        recyclerView.addItemDecoration(new HorizontalDividerItemDecoration.Builder(this).sizeResId(R.dimen.divideleft).color(Color.TRANSPARENT).sizeResId(R.dimen.divider).build());
 
 
         Sights sights = new Sights("Ծախկաձոր", "25 կմ", "Ծաղկաձոր (Կեչառիս, Ծաղկոցաձոր, մինչև 1947 թ.՝ Դարաչիչակ), քաղաք Հայաստանի Կոտայքի մարզում, (Կեչառիս, մինչև 1947-ը՝ Թեղենիսի արևելյան լանջին։ Կլիման մեղմ է, առողջարար։ Քաղաքը գտնվում է ծովի մակերևույթից 1841 մ բարձրության վրա, մարզկենտրոնից 6 կմ հյուսիս-արևմուտք։ Նախկինում գյուղն ամառանոցավայր էր, ապա՝ ավան, 1958 թվականից՝ քաղաքատիպ ավան։", R.drawable.caxkadzor);
